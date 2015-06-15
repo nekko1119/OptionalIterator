@@ -2,7 +2,8 @@
 
 Boost.Optionalを要素が0または1取りうるコンテナと見做すことで、
 Boost.Range.Adaptorを適用できるようにしました。
-Boost.Range.Adaptorのうち、ForwardRangeコンセプトを満たすAdaptorを適用することができます。
+このような考え方自体は数年前からあります。(参考 http://xtargets.com/2010/06/03/using-boostoptional-as-a-range/)
+Boost.Range.Adaptorのうち、ForwardRangeコンセプトを要求するAdaptorまで適用することができます。
 
 サンプルコード
 
